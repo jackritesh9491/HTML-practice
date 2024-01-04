@@ -1,0 +1,23 @@
+*{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: chartreuse;
+}
+#login{
+    background-color: aqua;
+}
+#Register{
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: hotpink;
+}
+#login:hover{
+    background-color: red;
+}
+div{
+    margin: auto;
+}

@@ -1,0 +1,55 @@
+span{ 
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h1,h2{
+    border: solid black;
+    width: 30%;
+}
+#outer {
+    height: 300px;
+    width: 250px;
+    background-color: rgba(255, 0, 195,0.500);
+    margin: 50px;
+    font-size: 20px;
+    transition: 2s;
+    margin: 0 auto;
+    
+    
+}
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 251, 5);
+    margin-left: 20%;
+    font-size: 0.5em;
+    transform: scale(0.5)
+}
+div{
+    font-size: 1.5em;
+}
+#outer:hover{
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin-top: 300px;
+    transform: scale(2,2);
+
+}
+.rotate{
+    height: 400px;
+    width: 300px;
+    background-color: darkseagreen;
+    transform: rotate(45deg); 
+    box-shadow: 4px 4px 30px rgb(254, 177, 190); 
+}
+#image{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    background-image:url("ironman.jpeg");
+    background-size: cover;
+    color: blue;
+
+}
